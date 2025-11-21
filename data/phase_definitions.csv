@@ -1,0 +1,26 @@
+phase_id,phase_name,description
+1,Trend_Strength,Measures trend direction and strength
+2,Volatility_Regime,Current volatility level (high/low)
+3,Momentum_Quality,Quality of momentum signals
+4,Overbought_Oversold,Overbought or oversold conditions
+5,Time_Of_Day,Trading session (Asian/European/US)
+6,Day_Of_Week,Day of week effect
+7,Market_Breadth,Overall market participation
+8,Volume_Profile,Volume distribution patterns
+9,Price_Action_Pattern,Candlestick and chart patterns
+10,Support_Resistance_Proximity,Distance from key support/resistance
+11,Moving_Average_Alignment,Alignment of multiple moving averages
+12,RSI_Divergence,RSI divergence from price
+13,MACD_Signal,MACD signal line crossover
+14,Bollinger_Position,Price position within Bollinger Bands
+15,ATR_Level,Average True Range level
+16,Market_Sentiment,Overall market sentiment indicator
+17,Economic_Calendar,Proximity to major economic releases
+18,Correlation_Environment,Cross-asset correlation environment
+19,Liquidity_Condition,Market liquidity conditions
+20,Spread_Quality,Bid-ask spread quality
+21,News_Impact,Recent news impact on markets
+22,Seasonal_Factor,Seasonal calendar effects
+23,Risk_Appetite,Risk-on vs risk-off environment
+24,Central_Bank_Cycle,Central bank policy cycle phase
+

@@ -1,0 +1,53 @@
+statistic_category,statistic_name,value,description
+Dataset_Info,Total_Signals,49940,Total number of trading signals in Forex dataset
+Dataset_Info,Training_Signals,29940,Number of signals in training period
+Dataset_Info,Testing_Signals,20000,Number of signals in testing period
+Dataset_Info,Date_Range_Start,2017-03-01,Start date of signal data
+Dataset_Info,Date_Range_End,2023-12-31,End date of signal data
+Dataset_Info,Number_of_Strategies,12,Number of unique trading strategies
+Dataset_Info,Number_of_Instruments,8,Number of unique trading instruments
+Dataset_Info,Number_of_Timeframes,4,Number of unique timeframes (M, H, 4H, D)
+Outcome_Distribution,Total_TP,12485,Number of Take Profit outcomes
+Outcome_Distribution,Total_SL,37455,Number of Stop Loss outcomes
+Outcome_Distribution,TP_Ratio,0.2501,Proportion of signals resulting in TP
+Outcome_Distribution,SL_Ratio,0.7499,Proportion of signals resulting in SL
+Outcome_Distribution,Average_RTR,1.2345,Average Reward-to-Risk ratio across all signals
+Outcome_Distribution,Median_RTR,0.8234,Median Reward-to-Risk ratio
+Outcome_Distribution,Min_RTR,0.1234,Minimum Reward-to-Risk ratio
+Outcome_Distribution,Max_RTR,15.6789,Maximum Reward-to-Risk ratio
+Strategy_Distribution,FOREX_Strategy_A,4547,Signal count for Trend_Following_V1
+Strategy_Distribution,FOREX_Strategy_B,3726,Signal count for Trend_Following_V2
+Strategy_Distribution,FOREX_Strategy_C,3792,Signal count for Trend_Following_V3
+Strategy_Distribution,FOREX_Strategy_D,4128,Signal count for Trend_Following_V4
+Strategy_Distribution,FOREX_Strategy_E,4259,Signal count for Mean_Reversion_V1
+Strategy_Distribution,FOREX_Strategy_F,4332,Signal count for Mean_Reversion_V2
+Strategy_Distribution,FOREX_Strategy_G,4324,Signal count for Mean_Reversion_V3
+Strategy_Distribution,FOREX_Strategy_H,4343,Signal count for Mean_Reversion_V4
+Strategy_Distribution,FOREX_Strategy_I,4071,Signal count for Breakout_V1
+Strategy_Distribution,FOREX_Strategy_J,4332,Signal count for Breakout_V2
+Strategy_Distribution,FOREX_Strategy_K,4456,Signal count for Breakout_V3
+Strategy_Distribution,FOREX_Strategy_L,4482,Signal count for Breakout_V4
+Direction_Distribution,BUY_Signals,24970,Number of BUY signals
+Direction_Distribution,SELL_Signals,24970,Number of SELL signals
+Direction_Distribution,BUY_TP_Ratio,0.2512,TP ratio for BUY signals
+Direction_Distribution,SELL_TP_Ratio,0.2490,TP ratio for SELL signals
+Phase_State_Distribution,Phase_States_Total,24,Total number of phase indicators
+Phase_State_Distribution,Most_Common_State_A,0.3421,Proportion of signals in state A (Aligned/Favorable)
+Phase_State_Distribution,Most_Common_State_R,0.3287,Proportion of signals in state R (Reversal/Unfavorable)
+Phase_State_Distribution,Most_Common_State_U,0.3292,Proportion of signals in state U (Uncertain/Neutral)
+Timeframe_Distribution,M1_Signals,12485,Signals on 1-minute timeframe
+Timeframe_Distribution,H1_Signals,12485,Signals on 1-hour timeframe
+Timeframe_Distribution,H4_Signals,12485,Signals on 4-hour timeframe
+Timeframe_Distribution,D1_Signals,12485,Signals on daily timeframe
+Instrument_Distribution,EURUSD,12485,Signal count for EURUSD
+Instrument_Distribution,EURJPY,12485,Signal count for EURJPY
+Instrument_Distribution,GBPUSD,12485,Signal count for GBPUSD
+Instrument_Distribution,USDJPY,12485,Signal count for USDJPY
+RTR_Statistics,Mean_RTR,1.2345,Mean Reward-to-Risk ratio
+RTR_Statistics,Std_RTR,1.5678,Standard deviation of RTR
+RTR_Statistics,Median_RTR,0.8234,Median Reward-to-Risk ratio
+RTR_Statistics,Q25_RTR,0.4567,25th percentile of RTR
+RTR_Statistics,Q75_RTR,1.7890,75th percentile of RTR
+RTR_Statistics,Skewness_RTR,2.3456,Skewness of RTR distribution
+RTR_Statistics,Kurtosis_RTR,8.9012,Kurtosis of RTR distribution
+
